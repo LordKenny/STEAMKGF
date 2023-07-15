@@ -1,17 +1,23 @@
+🔑 Steam Key Generator
 
-#🔑 Steam Key Generator and Verifier 🎮
+This Python script allows you to generate random Steam keys and verify them using the Steam API.
 
-This project allows you to generate and verify Steam keys using Python. It leverages the `requests`, `random`, `art`, and `colorama` packages to create a fun and interactive key generation experience. The generated keys are checked for validity using the Steam API and categorized as valid, invalid, or encountering errors.
+🚀 Features:
 
-✨ Features:
-- Continuous key generation at a rate of {NUM_KEYS_PER_SECOND} keys per second ⚡️
-- Visual and colorful display of key validation results 🌈
-- Integration of ASCII art for a visually appealing welcome banner 🌟
-- Saving of valid keys to an "output.txt" file 📝
-- Steam API key persistence for convenient usage 🔑
+- Generates random Steam keys consisting of uppercase letters and digits.
+- Verifies the validity of keys by sending them to the Steam API.
+- Displays real-time verification results (Valid, Invalid, Error).
+- Saves valid keys to an output file.
 
-To get started, make sure to have the required packages installed by running `pip install -r requirements.txt`. Then, execute the script and enter your Steam API key when prompted. Press Enter to begin the key generation process.
+📝 Usage:
 
-The generated keys will be checked against the Steam API, and the validation results will be displayed with corresponding colors. Valid keys will be saved to the "output.txt" file for future reference.
+1️⃣ Make sure you have a valid Steam API key. If you don't have one, you will be prompted to enter your Steam API key when running the script.
+2️⃣ Run the script using the command `python script.py`.
+3️⃣ Press Enter to start the key generation process.
+4️⃣ The generated keys will be verified in parallel at a rate of 100 keys per second.
+5️⃣ Verification results will be displayed in real-time.
+6️⃣ Valid keys will be saved to an output file named "output.txt".
 
-Feel free to explore, run, and modify this project to suit your needs. If you have any questions or suggestions, please don't hesitate to reach out. Happy key generation! 🚀
+Make sure to install the required dependencies using the command `pip install -r requirements.txt` before running the script.
+
+Enjoy generating and verifying Steam keys! 🎮🔑
